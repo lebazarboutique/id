@@ -35,7 +35,7 @@ function preload() {
 
 function setup() {
   // Définir la toile aux dimensions A4 en pixels (600px x 842px)
-  createCanvas(900, 800);
+  createCanvas(windowWidth, windowHeight);
 }
 function windowResized() {
   centerCanvas(); // Réajuster si la fenêtre est redimensionnée
