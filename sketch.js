@@ -49,11 +49,11 @@ function centerCanvas() {
 }*/
 
 function draw() {
-  background(255);
+  background(255);/*
   function centerCanvas() {
   let x = (windowWidth - width) / 2;
   let y = (windowHeight - height) / 2;
-  canvas.position(x, y);
+  canvas.position(x, y);*/
 }
 /*
 function windowResized() {
