@@ -37,6 +37,7 @@ function setup() {
   // Définir la toile aux dimensions A4 en pixels (600px x 842px)
   createCanvas(windowWidth, windowHeight);
 }
+/*
 function windowResized() {
   centerCanvas(); // Réajuster si la fenêtre est redimensionnée
 }
@@ -45,7 +46,7 @@ function centerCanvas() {
   let x = (windowWidth - width) / 2;
   let y = (windowHeight - height) / 2;
   canvas.position(x, y);
-}
+}*/
 
 function draw() {
   background(255);
@@ -54,11 +55,11 @@ function draw() {
   let y = (windowHeight - height) / 2;
   canvas.position(x, y);
 }
-
+/*
 function windowResized() {
   resizeCanvas(400, 400);
   centerCanvas(); // Recentrer le canvas en cas de redimensionnement
-}
+}*/
 
   if (stage === 0) {
     // Écran d'accueil
