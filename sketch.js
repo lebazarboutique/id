@@ -292,9 +292,9 @@ function displayImage3() {
 
     // Afficher le message final sur deux lignes
     fill(0);
-    textSize(22);
-    textAlign(CENTER);
-    text("Merci d'envoyer votre dessin à lebazarboutique@gmail.com", width / 2, height - 760); // Première ligne
+    textSize(22);/*
+    textAlign(CENTER);*/
+    text("Merci d'envoyer votre dessin à lebazarboutique@gmail.com"/*, width / 2, height - 760*/); // Première ligne
     text("pour que vos tasses soient réalisées.", width / 2, height - 740); // Deuxième ligne
 
     // Après l'affichage des trois images pendant 5 secondes, on enregistre le canvas
